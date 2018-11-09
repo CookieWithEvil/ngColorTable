@@ -1,0 +1,19 @@
+table{
+	thead{
+		th{
+			text-align: center;			
+		}
+	}	
+}
+@media all and (min-width: 800px){
+	.table{
+		margin: 50px auto 0;
+		width: 400px;
+	}
+}
+@media all and (max-width: 800px){
+	.table{
+		margin: auto;
+		width: 100%;
+	}
+}

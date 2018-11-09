@@ -1,0 +1,17 @@
+<div class="container mx-auto">
+  <table class="table border border-dark">
+
+    <thead class="thead-dark">
+      <th>Color Name</th>
+      <th>Color</th>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let color of colors"> 
+      	<td> {{color.colorName}} </td>
+     	<td [ngStyle]="{'background-color':color.hexValue}"></td>
+	  </tr>
+    </tbody>
+
+  </table>
+</div>
