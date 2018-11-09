@@ -1,4 +1,4 @@
-### ngColorTable
+### ngColorTable (it displays a table: colorName - color)
 #### to see it on your computer, you should:
 1. download this repository 
 2. install all dependensies in package.json
